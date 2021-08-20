@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25974EF813D00B744A98887B /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9513D917164A7ACE9D1EA2 /* Pods_WeatherApp.framework */; };
-		3826FF7D4C48E0D518FFA757 /* Pods_WeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E0D9CD02334D0D1F34A97 /* Pods_WeatherAppTests.framework */; };
-		B14E70E9C2FE5BA6DB1AD938 /* Pods_WeatherApp_WeatherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33532EA4E0466DF1A893FFFE /* Pods_WeatherApp_WeatherAppUITests.framework */; };
+		75FC86846761A3F252BBB711 /* Pods_WeatherApp_WeatherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500FAE3C5B6BCB85C51C614B /* Pods_WeatherApp_WeatherAppUITests.framework */; };
+		98349809EB0DE19B3F5A358A /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A119D363EA8770BBFA9908D1 /* Pods_WeatherApp.framework */; };
+		B37C498EF5BB9A42BDC39776 /* Pods_WeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5514CDABF3897F33379B506B /* Pods_WeatherAppTests.framework */; };
 		CF3000CF26CD8C290075E905 /* WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3000CE26CD8C290075E905 /* WeatherAppApp.swift */; };
 		CF3000D326CD8C2A0075E905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3000D226CD8C2A0075E905 /* Assets.xcassets */; };
 		CF3000D626CD8C2A0075E905 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3000D526CD8C2A0075E905 /* Preview Assets.xcassets */; };
@@ -25,25 +25,25 @@
 		CF57483C26CECA0000BA1886 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57483B26CECA0000BA1886 /* DailyWeather.swift */; };
 		CF57484126CECA1600BA1886 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57484026CECA1600BA1886 /* Temperature.swift */; };
 		CFF9640C26D00CBC0093C9B8 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9640B26D00CBC0093C9B8 /* CityViewViewModel.swift */; };
-		CFF9642226D046650093C9B8 /* 35707-weather-day-shower-rains.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641026D046640093C9B8 /* 35707-weather-day-shower-rains.json */; };
-		CFF9642326D046650093C9B8 /* 35752-weather-night-snow.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641126D046640093C9B8 /* 35752-weather-night-snow.json */; };
-		CFF9642426D046650093C9B8 /* 35724-weather-day-rain.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641226D046640093C9B8 /* 35724-weather-day-rain.json */; };
-		CFF9642526D046650093C9B8 /* 35778-weather-night-scattered-clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641326D046640093C9B8 /* 35778-weather-night-scattered-clouds.json */; };
-		CFF9642626D046650093C9B8 /* 35733-weather-day-thunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641426D046640093C9B8 /* 35733-weather-day-thunderstorm.json */; };
-		CFF9642726D046650093C9B8 /* 35781-weather-night-clear-sky.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641526D046640093C9B8 /* 35781-weather-night-clear-sky.json */; };
-		CFF9642826D046650093C9B8 /* 35630-weather-day-few-clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641626D046640093C9B8 /* 35630-weather-day-few-clouds.json */; };
-		CFF9642926D046650093C9B8 /* 35743-weather-day-snow.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641726D046640093C9B8 /* 35743-weather-day-snow.json */; };
-		CFF9642A26D046650093C9B8 /* 35690-weather-day-broken-clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641826D046640093C9B8 /* 35690-weather-day-broken-clouds.json */; };
-		CFF9642B26D046650093C9B8 /* 35750-weather-night-mist.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641926D046640093C9B8 /* 35750-weather-night-mist.json */; };
-		CFF9642C26D046650093C9B8 /* 35631-weather-day-scattered-clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641A26D046640093C9B8 /* 35631-weather-day-scattered-clouds.json */; };
-		CFF9642D26D046650093C9B8 /* 35627-weather-day-clear-sky.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641B26D046640093C9B8 /* 35627-weather-day-clear-sky.json */; };
-		CFF9642E26D046650093C9B8 /* 35755-weather-night-thunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641C26D046650093C9B8 /* 35755-weather-night-thunderstorm.json */; };
-		CFF9642F26D046650093C9B8 /* 35774-weather-night-shower-rains.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641D26D046650093C9B8 /* 35774-weather-night-shower-rains.json */; };
-		CFF9643026D046650093C9B8 /* 35779-weather-night-few-clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641E26D046650093C9B8 /* 35779-weather-night-few-clouds.json */; };
-		CFF9643126D046650093C9B8 /* 35775-weather-night-broken-clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9641F26D046650093C9B8 /* 35775-weather-night-broken-clouds.json */; };
-		CFF9643226D046650093C9B8 /* 35749-weather-day-mist.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9642026D046650093C9B8 /* 35749-weather-day-mist.json */; };
-		CFF9643326D046650093C9B8 /* 35772-weather-night-rain.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9642126D046650093C9B8 /* 35772-weather-night-rain.json */; };
 		CFF9643826D0469E0093C9B8 /* LottieViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9643726D0469E0093C9B8 /* LottieViews.swift */; };
+		CFF9649026D0580C0093C9B8 /* nightRain.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9647E26D0580B0093C9B8 /* nightRain.json */; };
+		CFF9649126D0580C0093C9B8 /* daySnow.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9647F26D0580B0093C9B8 /* daySnow.json */; };
+		CFF9649226D0580C0093C9B8 /* dayClearSky.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648026D0580B0093C9B8 /* dayClearSky.json */; };
+		CFF9649326D0580C0093C9B8 /* nightSnow.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648126D0580B0093C9B8 /* nightSnow.json */; };
+		CFF9649426D0580C0093C9B8 /* nightFewClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648226D0580B0093C9B8 /* nightFewClouds.json */; };
+		CFF9649526D0580C0093C9B8 /* nightThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648326D0580B0093C9B8 /* nightThunderstorm.json */; };
+		CFF9649626D0580C0093C9B8 /* nightScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648426D0580B0093C9B8 /* nightScatteredClouds.json */; };
+		CFF9649726D0580C0093C9B8 /* dayRain.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648526D0580B0093C9B8 /* dayRain.json */; };
+		CFF9649826D0580C0093C9B8 /* dayBrokenClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648626D0580B0093C9B8 /* dayBrokenClouds.json */; };
+		CFF9649926D0580C0093C9B8 /* nightClearSky.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648726D0580C0093C9B8 /* nightClearSky.json */; };
+		CFF9649A26D0580C0093C9B8 /* dayShowerRains.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648826D0580C0093C9B8 /* dayShowerRains.json */; };
+		CFF9649B26D0580C0093C9B8 /* dayThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648926D0580C0093C9B8 /* dayThunderstorm.json */; };
+		CFF9649C26D0580C0093C9B8 /* dayScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648A26D0580C0093C9B8 /* dayScatteredClouds.json */; };
+		CFF9649D26D0580C0093C9B8 /* dayMist.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648B26D0580C0093C9B8 /* dayMist.json */; };
+		CFF9649E26D0580C0093C9B8 /* dayFewClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648C26D0580C0093C9B8 /* dayFewClouds.json */; };
+		CFF9649F26D0580C0093C9B8 /* nightMist.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648D26D0580C0093C9B8 /* nightMist.json */; };
+		CFF964A026D0580C0093C9B8 /* nightShowerRains.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648E26D0580C0093C9B8 /* nightShowerRains.json */; };
+		CFF964A126D0580C0093C9B8 /* nightBrokenClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = CFF9648F26D0580C0093C9B8 /* nightBrokenClouds.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,15 +64,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33532EA4E0466DF1A893FFFE /* Pods_WeatherApp_WeatherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp_WeatherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55DEF1DA937B631587E56FF7 /* Pods-WeatherApp-WeatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp-WeatherAppUITests.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6892A07F84FEF78EA0796D52 /* Pods-WeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppTests.release.xcconfig"; path = "Target Support Files/Pods-WeatherAppTests/Pods-WeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		6C48FE89CC32835EC6FD7CA3 /* Pods-WeatherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherAppTests/Pods-WeatherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6D359BC3763E1F812382868D /* Pods-WeatherApp-WeatherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp-WeatherAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		889E43043E78944B8A0C6785 /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
-		9B9E0D9CD02334D0D1F34A97 /* Pods_WeatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF9513D917164A7ACE9D1EA2 /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C446C486BB2D85F35089004C /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		07DE8A6A9F14E069F0440600 /* Pods-WeatherApp-WeatherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp-WeatherAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B927E26A34A9E8898BAA1AE /* Pods-WeatherApp-WeatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp-WeatherAppUITests.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26B16157C76E792E549FC829 /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		500FAE3C5B6BCB85C51C614B /* Pods_WeatherApp_WeatherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp_WeatherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5514CDABF3897F33379B506B /* Pods_WeatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6902237BD06A32B6ABE75058 /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		6C38A3F61DD81E6EA8FA0E1A /* Pods-WeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppTests.release.xcconfig"; path = "Target Support Files/Pods-WeatherAppTests/Pods-WeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A119D363EA8770BBFA9908D1 /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB27179AD13CFC33263CB2E2 /* Pods-WeatherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherAppTests/Pods-WeatherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CF3000CB26CD8C290075E905 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3000CE26CD8C290075E905 /* WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppApp.swift; sourceTree = "<group>"; };
 		CF3000D026CD8C290075E905 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,25 +94,25 @@
 		CF57483B26CECA0000BA1886 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		CF57484026CECA1600BA1886 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		CFF9640B26D00CBC0093C9B8 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
-		CFF9641026D046640093C9B8 /* 35707-weather-day-shower-rains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35707-weather-day-shower-rains.json"; sourceTree = "<group>"; };
-		CFF9641126D046640093C9B8 /* 35752-weather-night-snow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35752-weather-night-snow.json"; sourceTree = "<group>"; };
-		CFF9641226D046640093C9B8 /* 35724-weather-day-rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35724-weather-day-rain.json"; sourceTree = "<group>"; };
-		CFF9641326D046640093C9B8 /* 35778-weather-night-scattered-clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35778-weather-night-scattered-clouds.json"; sourceTree = "<group>"; };
-		CFF9641426D046640093C9B8 /* 35733-weather-day-thunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35733-weather-day-thunderstorm.json"; sourceTree = "<group>"; };
-		CFF9641526D046640093C9B8 /* 35781-weather-night-clear-sky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35781-weather-night-clear-sky.json"; sourceTree = "<group>"; };
-		CFF9641626D046640093C9B8 /* 35630-weather-day-few-clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35630-weather-day-few-clouds.json"; sourceTree = "<group>"; };
-		CFF9641726D046640093C9B8 /* 35743-weather-day-snow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35743-weather-day-snow.json"; sourceTree = "<group>"; };
-		CFF9641826D046640093C9B8 /* 35690-weather-day-broken-clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35690-weather-day-broken-clouds.json"; sourceTree = "<group>"; };
-		CFF9641926D046640093C9B8 /* 35750-weather-night-mist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35750-weather-night-mist.json"; sourceTree = "<group>"; };
-		CFF9641A26D046640093C9B8 /* 35631-weather-day-scattered-clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35631-weather-day-scattered-clouds.json"; sourceTree = "<group>"; };
-		CFF9641B26D046640093C9B8 /* 35627-weather-day-clear-sky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35627-weather-day-clear-sky.json"; sourceTree = "<group>"; };
-		CFF9641C26D046650093C9B8 /* 35755-weather-night-thunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35755-weather-night-thunderstorm.json"; sourceTree = "<group>"; };
-		CFF9641D26D046650093C9B8 /* 35774-weather-night-shower-rains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35774-weather-night-shower-rains.json"; sourceTree = "<group>"; };
-		CFF9641E26D046650093C9B8 /* 35779-weather-night-few-clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35779-weather-night-few-clouds.json"; sourceTree = "<group>"; };
-		CFF9641F26D046650093C9B8 /* 35775-weather-night-broken-clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35775-weather-night-broken-clouds.json"; sourceTree = "<group>"; };
-		CFF9642026D046650093C9B8 /* 35749-weather-day-mist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35749-weather-day-mist.json"; sourceTree = "<group>"; };
-		CFF9642126D046650093C9B8 /* 35772-weather-night-rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "35772-weather-night-rain.json"; sourceTree = "<group>"; };
 		CFF9643726D0469E0093C9B8 /* LottieViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViews.swift; sourceTree = "<group>"; };
+		CFF9647E26D0580B0093C9B8 /* nightRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightRain.json; sourceTree = "<group>"; };
+		CFF9647F26D0580B0093C9B8 /* daySnow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = daySnow.json; sourceTree = "<group>"; };
+		CFF9648026D0580B0093C9B8 /* dayClearSky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayClearSky.json; sourceTree = "<group>"; };
+		CFF9648126D0580B0093C9B8 /* nightSnow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightSnow.json; sourceTree = "<group>"; };
+		CFF9648226D0580B0093C9B8 /* nightFewClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightFewClouds.json; sourceTree = "<group>"; };
+		CFF9648326D0580B0093C9B8 /* nightThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightThunderstorm.json; sourceTree = "<group>"; };
+		CFF9648426D0580B0093C9B8 /* nightScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightScatteredClouds.json; sourceTree = "<group>"; };
+		CFF9648526D0580B0093C9B8 /* dayRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayRain.json; sourceTree = "<group>"; };
+		CFF9648626D0580B0093C9B8 /* dayBrokenClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayBrokenClouds.json; sourceTree = "<group>"; };
+		CFF9648726D0580C0093C9B8 /* nightClearSky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightClearSky.json; sourceTree = "<group>"; };
+		CFF9648826D0580C0093C9B8 /* dayShowerRains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayShowerRains.json; sourceTree = "<group>"; };
+		CFF9648926D0580C0093C9B8 /* dayThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayThunderstorm.json; sourceTree = "<group>"; };
+		CFF9648A26D0580C0093C9B8 /* dayScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayScatteredClouds.json; sourceTree = "<group>"; };
+		CFF9648B26D0580C0093C9B8 /* dayMist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayMist.json; sourceTree = "<group>"; };
+		CFF9648C26D0580C0093C9B8 /* dayFewClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayFewClouds.json; sourceTree = "<group>"; };
+		CFF9648D26D0580C0093C9B8 /* nightMist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightMist.json; sourceTree = "<group>"; };
+		CFF9648E26D0580C0093C9B8 /* nightShowerRains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightShowerRains.json; sourceTree = "<group>"; };
+		CFF9648F26D0580C0093C9B8 /* nightBrokenClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightBrokenClouds.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25974EF813D00B744A98887B /* Pods_WeatherApp.framework in Frameworks */,
+				98349809EB0DE19B3F5A358A /* Pods_WeatherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3826FF7D4C48E0D518FFA757 /* Pods_WeatherAppTests.framework in Frameworks */,
+				B37C498EF5BB9A42BDC39776 /* Pods_WeatherAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,27 +136,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B14E70E9C2FE5BA6DB1AD938 /* Pods_WeatherApp_WeatherAppUITests.framework in Frameworks */,
+				75FC86846761A3F252BBB711 /* Pods_WeatherApp_WeatherAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E49BDB8E1BF7968EBBA5F1E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				889E43043E78944B8A0C6785 /* Pods-WeatherApp.debug.xcconfig */,
-				C446C486BB2D85F35089004C /* Pods-WeatherApp.release.xcconfig */,
-				6D359BC3763E1F812382868D /* Pods-WeatherApp-WeatherAppUITests.debug.xcconfig */,
-				55DEF1DA937B631587E56FF7 /* Pods-WeatherApp-WeatherAppUITests.release.xcconfig */,
-				6C48FE89CC32835EC6FD7CA3 /* Pods-WeatherAppTests.debug.xcconfig */,
-				6892A07F84FEF78EA0796D52 /* Pods-WeatherAppTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		CF3000C226CD8C290075E905 = {
 			isa = PBXGroup;
 			children = (
@@ -164,8 +150,8 @@
 				CF3000DF26CD8C2A0075E905 /* WeatherAppTests */,
 				CF3000EA26CD8C2A0075E905 /* WeatherAppUITests */,
 				CF3000CC26CD8C290075E905 /* Products */,
-				0E49BDB8E1BF7968EBBA5F1E /* Pods */,
-				D4A1C05630987DFD881C615D /* Frameworks */,
+				FF6CD3F899725D08090641CF /* Pods */,
+				E9C31E5BB4AEAA0D948D1CA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,36 +249,49 @@
 		CF57481926CEBEAC00BA1886 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				CFF9641B26D046640093C9B8 /* 35627-weather-day-clear-sky.json */,
-				CFF9641626D046640093C9B8 /* 35630-weather-day-few-clouds.json */,
-				CFF9641A26D046640093C9B8 /* 35631-weather-day-scattered-clouds.json */,
-				CFF9641826D046640093C9B8 /* 35690-weather-day-broken-clouds.json */,
-				CFF9641026D046640093C9B8 /* 35707-weather-day-shower-rains.json */,
-				CFF9641226D046640093C9B8 /* 35724-weather-day-rain.json */,
-				CFF9641426D046640093C9B8 /* 35733-weather-day-thunderstorm.json */,
-				CFF9641726D046640093C9B8 /* 35743-weather-day-snow.json */,
-				CFF9642026D046650093C9B8 /* 35749-weather-day-mist.json */,
-				CFF9641926D046640093C9B8 /* 35750-weather-night-mist.json */,
-				CFF9641126D046640093C9B8 /* 35752-weather-night-snow.json */,
-				CFF9641C26D046650093C9B8 /* 35755-weather-night-thunderstorm.json */,
-				CFF9642126D046650093C9B8 /* 35772-weather-night-rain.json */,
-				CFF9641D26D046650093C9B8 /* 35774-weather-night-shower-rains.json */,
-				CFF9641F26D046650093C9B8 /* 35775-weather-night-broken-clouds.json */,
-				CFF9641326D046640093C9B8 /* 35778-weather-night-scattered-clouds.json */,
-				CFF9641E26D046650093C9B8 /* 35779-weather-night-few-clouds.json */,
-				CFF9641526D046640093C9B8 /* 35781-weather-night-clear-sky.json */,
+				CFF9648626D0580B0093C9B8 /* dayBrokenClouds.json */,
+				CFF9648026D0580B0093C9B8 /* dayClearSky.json */,
+				CFF9648C26D0580C0093C9B8 /* dayFewClouds.json */,
+				CFF9648B26D0580C0093C9B8 /* dayMist.json */,
+				CFF9648526D0580B0093C9B8 /* dayRain.json */,
+				CFF9648A26D0580C0093C9B8 /* dayScatteredClouds.json */,
+				CFF9648826D0580C0093C9B8 /* dayShowerRains.json */,
+				CFF9647F26D0580B0093C9B8 /* daySnow.json */,
+				CFF9648926D0580C0093C9B8 /* dayThunderstorm.json */,
+				CFF9648F26D0580C0093C9B8 /* nightBrokenClouds.json */,
+				CFF9648726D0580C0093C9B8 /* nightClearSky.json */,
+				CFF9648226D0580B0093C9B8 /* nightFewClouds.json */,
+				CFF9648D26D0580C0093C9B8 /* nightMist.json */,
+				CFF9647E26D0580B0093C9B8 /* nightRain.json */,
+				CFF9648426D0580B0093C9B8 /* nightScatteredClouds.json */,
+				CFF9648E26D0580C0093C9B8 /* nightShowerRains.json */,
+				CFF9648126D0580B0093C9B8 /* nightSnow.json */,
+				CFF9648326D0580B0093C9B8 /* nightThunderstorm.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
 		};
-		D4A1C05630987DFD881C615D /* Frameworks */ = {
+		E9C31E5BB4AEAA0D948D1CA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF9513D917164A7ACE9D1EA2 /* Pods_WeatherApp.framework */,
-				33532EA4E0466DF1A893FFFE /* Pods_WeatherApp_WeatherAppUITests.framework */,
-				9B9E0D9CD02334D0D1F34A97 /* Pods_WeatherAppTests.framework */,
+				A119D363EA8770BBFA9908D1 /* Pods_WeatherApp.framework */,
+				500FAE3C5B6BCB85C51C614B /* Pods_WeatherApp_WeatherAppUITests.framework */,
+				5514CDABF3897F33379B506B /* Pods_WeatherAppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF6CD3F899725D08090641CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B16157C76E792E549FC829 /* Pods-WeatherApp.debug.xcconfig */,
+				6902237BD06A32B6ABE75058 /* Pods-WeatherApp.release.xcconfig */,
+				07DE8A6A9F14E069F0440600 /* Pods-WeatherApp-WeatherAppUITests.debug.xcconfig */,
+				1B927E26A34A9E8898BAA1AE /* Pods-WeatherApp-WeatherAppUITests.release.xcconfig */,
+				CB27179AD13CFC33263CB2E2 /* Pods-WeatherAppTests.debug.xcconfig */,
+				6C38A3F61DD81E6EA8FA0E1A /* Pods-WeatherAppTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,11 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF3000F026CD8C2A0075E905 /* Build configuration list for PBXNativeTarget "WeatherApp" */;
 			buildPhases = (
-				EE41A07F59192E0BB3593474 /* [CP] Check Pods Manifest.lock */,
+				AF68B2A68A9B9D705A1240E8 /* [CP] Check Pods Manifest.lock */,
 				CF3000C726CD8C290075E905 /* Sources */,
 				CF3000C826CD8C290075E905 /* Frameworks */,
 				CF3000C926CD8C290075E905 /* Resources */,
-				A4E890B8DC4014CE1D809D98 /* [CP] Embed Pods Frameworks */,
+				C37DF5455820EC39DED098AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -321,7 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF3000F326CD8C2A0075E905 /* Build configuration list for PBXNativeTarget "WeatherAppTests" */;
 			buildPhases = (
-				BD0E40E9E5776F3547147127 /* [CP] Check Pods Manifest.lock */,
+				C00A1D8FD08AA6D62B817070 /* [CP] Check Pods Manifest.lock */,
 				CF3000D826CD8C2A0075E905 /* Sources */,
 				CF3000D926CD8C2A0075E905 /* Frameworks */,
 				CF3000DA26CD8C2A0075E905 /* Resources */,
@@ -340,11 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF3000F626CD8C2A0075E905 /* Build configuration list for PBXNativeTarget "WeatherAppUITests" */;
 			buildPhases = (
-				D6C67827C2919F5923623B80 /* [CP] Check Pods Manifest.lock */,
+				34E6710B89F7C11B31A4488A /* [CP] Check Pods Manifest.lock */,
 				CF3000E326CD8C2A0075E905 /* Sources */,
 				CF3000E426CD8C2A0075E905 /* Frameworks */,
 				CF3000E526CD8C2A0075E905 /* Resources */,
-				0292C44D088F0D1264B275D8 /* [CP] Embed Pods Frameworks */,
+				8DE78E68A285CEF270B66541 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,25 +403,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF3000D626CD8C2A0075E905 /* Preview Assets.xcassets in Resources */,
-				CFF9642626D046650093C9B8 /* 35733-weather-day-thunderstorm.json in Resources */,
-				CFF9642826D046650093C9B8 /* 35630-weather-day-few-clouds.json in Resources */,
-				CFF9642C26D046650093C9B8 /* 35631-weather-day-scattered-clouds.json in Resources */,
-				CFF9642226D046650093C9B8 /* 35707-weather-day-shower-rains.json in Resources */,
-				CFF9642526D046650093C9B8 /* 35778-weather-night-scattered-clouds.json in Resources */,
+				CFF9649E26D0580C0093C9B8 /* dayFewClouds.json in Resources */,
+				CFF9649626D0580C0093C9B8 /* nightScatteredClouds.json in Resources */,
+				CFF9649926D0580C0093C9B8 /* nightClearSky.json in Resources */,
+				CFF9649126D0580C0093C9B8 /* daySnow.json in Resources */,
+				CFF9649026D0580C0093C9B8 /* nightRain.json in Resources */,
+				CFF9649826D0580C0093C9B8 /* dayBrokenClouds.json in Resources */,
+				CFF9649726D0580C0093C9B8 /* dayRain.json in Resources */,
+				CFF9649A26D0580C0093C9B8 /* dayShowerRains.json in Resources */,
+				CFF9649C26D0580C0093C9B8 /* dayScatteredClouds.json in Resources */,
+				CFF9649426D0580C0093C9B8 /* nightFewClouds.json in Resources */,
+				CFF9649B26D0580C0093C9B8 /* dayThunderstorm.json in Resources */,
 				CF3000D326CD8C2A0075E905 /* Assets.xcassets in Resources */,
-				CFF9643026D046650093C9B8 /* 35779-weather-night-few-clouds.json in Resources */,
-				CFF9643126D046650093C9B8 /* 35775-weather-night-broken-clouds.json in Resources */,
-				CFF9643226D046650093C9B8 /* 35749-weather-day-mist.json in Resources */,
-				CFF9642426D046650093C9B8 /* 35724-weather-day-rain.json in Resources */,
-				CFF9642B26D046650093C9B8 /* 35750-weather-night-mist.json in Resources */,
-				CFF9642A26D046650093C9B8 /* 35690-weather-day-broken-clouds.json in Resources */,
-				CFF9642F26D046650093C9B8 /* 35774-weather-night-shower-rains.json in Resources */,
-				CFF9642926D046650093C9B8 /* 35743-weather-day-snow.json in Resources */,
-				CFF9642726D046650093C9B8 /* 35781-weather-night-clear-sky.json in Resources */,
-				CFF9643326D046650093C9B8 /* 35772-weather-night-rain.json in Resources */,
-				CFF9642E26D046650093C9B8 /* 35755-weather-night-thunderstorm.json in Resources */,
-				CFF9642D26D046650093C9B8 /* 35627-weather-day-clear-sky.json in Resources */,
-				CFF9642326D046650093C9B8 /* 35752-weather-night-snow.json in Resources */,
+				CFF9649226D0580C0093C9B8 /* dayClearSky.json in Resources */,
+				CFF9649326D0580C0093C9B8 /* nightSnow.json in Resources */,
+				CFF964A126D0580C0093C9B8 /* nightBrokenClouds.json in Resources */,
+				CFF964A026D0580C0093C9B8 /* nightShowerRains.json in Resources */,
+				CFF9649526D0580C0093C9B8 /* nightThunderstorm.json in Resources */,
+				CFF9649D26D0580C0093C9B8 /* dayMist.json in Resources */,
+				CFF9649F26D0580C0093C9B8 /* nightMist.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,63 +442,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0292C44D088F0D1264B275D8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A4E890B8DC4014CE1D809D98 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD0E40E9E5776F3547147127 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WeatherAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D6C67827C2919F5923623B80 /* [CP] Check Pods Manifest.lock */ = {
+		34E6710B89F7C11B31A4488A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -521,7 +464,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE41A07F59192E0BB3593474 /* [CP] Check Pods Manifest.lock */ = {
+		8DE78E68A285CEF270B66541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApp-WeatherAppUITests/Pods-WeatherApp-WeatherAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF68B2A68A9B9D705A1240E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -541,6 +501,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00A1D8FD08AA6D62B817070 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37DF5455820EC39DED098AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -715,7 +714,7 @@
 		};
 		CF3000F126CD8C2A0075E905 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 889E43043E78944B8A0C6785 /* Pods-WeatherApp.debug.xcconfig */;
+			baseConfigurationReference = 26B16157C76E792E549FC829 /* Pods-WeatherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -740,7 +739,7 @@
 		};
 		CF3000F226CD8C2A0075E905 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C446C486BB2D85F35089004C /* Pods-WeatherApp.release.xcconfig */;
+			baseConfigurationReference = 6902237BD06A32B6ABE75058 /* Pods-WeatherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -765,7 +764,7 @@
 		};
 		CF3000F426CD8C2A0075E905 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C48FE89CC32835EC6FD7CA3 /* Pods-WeatherAppTests.debug.xcconfig */;
+			baseConfigurationReference = CB27179AD13CFC33263CB2E2 /* Pods-WeatherAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -787,7 +786,7 @@
 		};
 		CF3000F526CD8C2A0075E905 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6892A07F84FEF78EA0796D52 /* Pods-WeatherAppTests.release.xcconfig */;
+			baseConfigurationReference = 6C38A3F61DD81E6EA8FA0E1A /* Pods-WeatherAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -809,7 +808,7 @@
 		};
 		CF3000F726CD8C2A0075E905 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D359BC3763E1F812382868D /* Pods-WeatherApp-WeatherAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 07DE8A6A9F14E069F0440600 /* Pods-WeatherApp-WeatherAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -829,7 +828,7 @@
 		};
 		CF3000F826CD8C2A0075E905 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55DEF1DA937B631587E56FF7 /* Pods-WeatherApp-WeatherAppUITests.release.xcconfig */;
+			baseConfigurationReference = 1B927E26A34A9E8898BAA1AE /* Pods-WeatherApp-WeatherAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
