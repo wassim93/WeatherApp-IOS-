@@ -38,7 +38,7 @@ final class CityViewViewModel : ObservableObject{
         if weather.current.weather.count > 0 {
             return weather.current.weather[0].icon
         }
-        return "sun.max.fill"
+        return "dayClearSky"
     }
     
     var temperature: String {
@@ -49,7 +49,7 @@ final class CityViewViewModel : ObservableObject{
         if weather.current.weather.count > 0 {
             return weather.current.weather[0].main
         }
-        return ""
+        return "default conditions"
     }
     
     var windSpeed : String {

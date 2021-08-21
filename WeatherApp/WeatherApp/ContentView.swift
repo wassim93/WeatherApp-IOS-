@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        //LottieView(name: "nightRain",loopMode: .loop)
+        //MenuHeaderView(cityViewModel: CityViewViewModel())
+        //CityNameView(city: "tun", date: "2020")
+        Text("ok")
     }
 }
 
