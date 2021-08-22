@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var cityVM = CityViewViewModel()
     var body: some View {
-        //LottieView(name: "nightRain",loopMode: .loop)
-        //MenuHeaderView(cityViewModel: CityViewViewModel())
-        //CityNameView(city: "tun", date: "2020")
-        Text("ok")
+        ZStack(alignment: .bottom) {
+            VStack(spacing: 0){
+                MenuHeaderView(cityViewModel: cityVM)
+                ScrollView(showsIndicators: false) {
+                    CityView(cityVM: cityVM)
+                }
+            }.padding(.top,30)
+        }.edgesIgnoringSafeArea(.all)
+
     }
 }
 
