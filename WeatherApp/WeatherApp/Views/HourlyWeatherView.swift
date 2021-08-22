@@ -39,6 +39,7 @@ private func getHourlyView(hour: String, image: Image , temp: String) -> some Vi
 
 struct HourlyWeatherView_Previews: PreviewProvider {
     static var previews: some View {
-        HourlyWeatherView(cityVM: CityViewViewModel())
+        //HourlyWeatherView(cityVM: CityViewViewModel())
+        ContentView()
     }
 }
