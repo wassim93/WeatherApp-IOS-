@@ -16,7 +16,7 @@ struct TodayWeatherView: View {
                 .fontWeight(.bold)
             HStack(spacing: 20){
                 //TODO: - lottie animation function
-                LottieView(name: "dayClearSky",loopMode: .loop)
+                LottieView(name: cityVM.getAnimationFor(icon: cityVM.weatherIcon),loopMode: .loop)
                     .frame(width: 100, height: 100)
                 VStack(alignment: .leading) {
                     Text("\(cityVM.temperature)°F")
